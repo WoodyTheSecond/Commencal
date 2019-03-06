@@ -1,0 +1,24 @@
+.section {
+    &__3 {
+
+        &__flex {
+            display: flex;
+        }
+        
+        background-color: $color-grey-bg;
+        padding: 2rem 0;
+        margin-top: 4rem;
+        min-width: 10rem;
+
+        @include clearfix;
+
+        &--left {
+            float: left;
+            margin-right: 3rem;
+        }
+
+        &--right {
+            // float: right;
+        }
+    }
+}

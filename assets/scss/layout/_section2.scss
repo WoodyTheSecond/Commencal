@@ -1,0 +1,25 @@
+.section {
+    &__2 {
+        margin-top: 3rem;
+    }
+
+    &__cycles {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        &__item {
+            display: block;
+            margin: 0 .5rem;
+
+            img {
+                
+            }
+
+            p {
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
