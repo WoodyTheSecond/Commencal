@@ -1,8 +1,5 @@
 .section {
     &__3 {
-        // height: 80rem;
-        // height: 36rem;
-
         &__grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -12,7 +9,6 @@
         background-color: $color-grey-bg;
         padding: 2rem 0;
         margin-top: 4rem;
-        // min-width: 10rem;
 
         &--left {
             img {
@@ -21,13 +17,16 @@
         }
 
         &--right {
-            // max-width: 50rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             padding: 0 1rem;
 
             div {
+                &:nth-child(2) {
+                    margin: 2rem 0;
+                }
+
                 &:first-child p:not(:last-child) {
                     margin-bottom: 1rem;
                 }
@@ -37,16 +36,6 @@
                     text-transform: uppercase;
                 }
             }
-            // max-width: 50rem;
-            // height: 100%;
-
-            // p {
-            //     margin: 1rem 0;
-            // }
-
-            // h3:not(:first-child) {
-            //     margin-top: 2rem;
-            // }
         }
     }
 }
@@ -55,6 +44,7 @@
     .section {
         &__3 {
             padding: 0;
+            padding-bottom: 2rem;
         }
     }
 }
