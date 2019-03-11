@@ -62,26 +62,12 @@
 
         input ~ &__navigation {
             height: 0;
-    
-            // > .container > &--left > &__item {
-            //     opacity: 0;
-            // }
-    
-            // > .container > &--right > &__item {
-            //     opacity: 0;
-            // }
+            opacity: 0;
         }
     
         input:checked ~ &__navigation {
             height: 246px;
-    
-            // > .container > &--left > &__item {
-            //     opacity: 1;
-            // }
-    
-            // > .container > &--right > &__item {
-            //     opacity: 1;
-            // }
+            opacity: 1;
         }
     }
 }
