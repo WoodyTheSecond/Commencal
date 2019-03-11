@@ -46,8 +46,12 @@
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 640px) {
     .header {
+        .container {
+            width: 100vw;
+        }
+
         &__navigation {
             &__item {
                 width: 100%;

@@ -16,9 +16,15 @@ a {
     outline: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1014px) {
     .container {
         width: 80vw;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 95vw;
     }
 }
 
