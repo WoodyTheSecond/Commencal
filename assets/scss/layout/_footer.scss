@@ -22,6 +22,7 @@
             a {
                 display: block;
                 text-align: center;
+                transition: all .2s;
                 
                 &:not(:last-child) {
                     margin-bottom: .5rem;
