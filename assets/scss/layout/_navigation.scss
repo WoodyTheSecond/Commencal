@@ -3,6 +3,9 @@
 
     &__navigation {
         background-color: $color-yellow;
+        transition: all .3s;
+        overflow: hidden;
+        // height: 0;
 
         @include clearfix;
 
@@ -20,7 +23,7 @@
             float: left;
             list-style: none;
             text-align: center;
-
+            // opacity: 0;
 
             a {
                 &:link, &:visited {
