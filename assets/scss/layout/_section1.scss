@@ -9,6 +9,7 @@
 
         .slide-wrapper {
             width: 300vw;
+            -webkit-animation: slide 18s ease infinite;
             animation: slide 18s ease infinite;
         }
 
